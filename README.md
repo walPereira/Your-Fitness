@@ -1,4 +1,26 @@
-🎮 Your Fitness
+# 🏋️ Your Fitness
+
+Projeto de sistema para gestão de academia desenvolvido com o objetivo de facilitar o acompanhamento de treinos e a organização das atividades dos alunos.
+
+## 📌 Sobre o Projeto
+
+A plataforma permite que usuários realizem seu cadastro de forma simples e segura, tendo acesso a um painel onde podem visualizar e acompanhar seus treinos diariamente.
+
+O sistema foi pensado para proporcionar mais autonomia ao aluno, permitindo que ele monitore sua rotina de exercícios, mantenha constância nos treinos e acompanhe sua evolução ao longo do tempo.
+
+## 🎯 Objetivo do Projeto
+
+O projeto tem como foco oferecer uma experiência prática e intuitiva para os usuários, com funcionalidades que auxiliam no controle das atividades físicas, promovendo maior engajamento e disciplina na rotina de treinos.
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento, foram aplicados conceitos importantes de desenvolvimento de software, como:
+
+- Estruturação de sistemas
+- Organização de dados
+- Lógica de programação
+- Criação de fluxos de navegação
+- Foco na experiência do usuário (UX)
 
 ## 📸 Demonstração
 
