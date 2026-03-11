@@ -1,22 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:yourfitness/home_page.dart';
+import 'package:flutter_modular/flutter_modular.dart';
+import 'package:yourfitness/src/app_module.dart';
+import 'package:yourfitness/src/app_widget.dart';
 
 void main() {
-  runApp(const YourFitnessWidget());
-}
-
-class YourFitnessWidget extends StatelessWidget {
-  const YourFitnessWidget({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: HomePage(),
-    );
-  }
+  runApp(
+    ModularApp(
+      module: AppModule(),
+      child: const YourFitnessWidget(),
+    ),
+  );
 }
